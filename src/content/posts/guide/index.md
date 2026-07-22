@@ -1,51 +1,58 @@
 ---
-title: Simple Guides for Fuwari
-published: 2024-04-01
-description: "How to use this blog template."
-image: "./cover.jpeg"
-tags: ["Fuwari", "Blogging", "Customization"]
-category: Guides
+title: Simple Guides for Robiul 
+published: 2026-07-20
+description: "How to see this website."
+image: "./cover.jpg"
+tags: ["Rahatul", "Blogging", "Robiul"]
+category: Guides for this web
 draft: false
 ---
 
-> Cover image source: [Source](https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/208fc754-890d-4adb-9753-2c963332675d/width=2048/01651-1456859105-(colour_1.5),girl,_Blue,yellow,green,cyan,purple,red,pink,_best,8k,UHD,masterpiece,male%20focus,%201boy,gloves,%20ponytail,%20long%20hair,.jpeg)
+Website Guidelines
 
-This blog template is built with [Astro](https://astro.build/). For the things that are not mentioned in this guide, you may find the answers in the [Astro Docs](https://docs.astro.build/).
+আমার ওয়েবসাইটে আপনাকে স্বাগতম।
+
+এই ওয়েবসাইটটি এমন একটি জায়গা, যেখানে আমি আমার পড়াশোনা, ব্যক্তিগত অভিজ্ঞতা, ফটোগ্রাফি, প্রকৃতি, প্রযুক্তি এবং দৈনন্দিন জীবনের বিভিন্ন বিষয় নিয়ে লিখব। আপনার অভিজ্ঞতা আরও সহজ ও সুন্দর করতে নিচের নির্দেশনাগুলো অনুসরণ করার অনুরোধ রইল।
+
+১. ব্লগ পড়ুন ও জানুন
+
+এখানে প্রকাশিত প্রতিটি ব্লগ আমার নিজস্ব চিন্তা, অভিজ্ঞতা এবং শেখার অংশ। এগুলো পড়ে মতামত জানাতে পারেন।
+
+২. সম্মানজনক আচরণ বজায় রাখুন
+
+সবার মতামতের মূল্য আছে। তাই মন্তব্য করার সময় ভদ্র ও সম্মানজনক ভাষা ব্যবহার করুন। অপমানজনক বা অশালীন মন্তব্য এড়িয়ে চলুন।
+
+৩. তথ্য ব্যবহারের আগে যাচাই করুন
+
+আমি যথাসম্ভব সঠিক তথ্য দেওয়ার চেষ্টা করি। তবে প্রযুক্তি বা অন্যান্য বিষয়ে সময়ের সঙ্গে পরিবর্তন আসতে পারে। গুরুত্বপূর্ণ সিদ্ধান্ত নেওয়ার আগে প্রয়োজনে তথ্য যাচাই করে নিন।
+
+৪. কনটেন্ট কপি করবেন না
+
+এই ওয়েবসাইটের লেখা ও ছবিগুলো আমার নিজস্ব। অনুমতি ছাড়া সম্পূর্ণ বা আংশিক কপি, প্রকাশ বা বাণিজ্যিকভাবে ব্যবহার করা থেকে বিরত থাকুন।
+
+৫. মতামত শেয়ার করুন
+
+আপনার কোনো পরামর্শ, প্রশ্ন বা মতামত থাকলে নির্দ্বিধায় জানাতে পারেন। গঠনমূলক মতামত সবসময় স্বাগত।
+
+৬. নিয়মিত ভিজিট করুন
+
+নিয়মিত নতুন ব্লগ, ছবি এবং বিভিন্ন বিষয়ের আপডেট প্রকাশ করা হবে। তাই নতুন কনটেন্ট দেখতে মাঝে মাঝে ওয়েবসাইটটি ভিজিট করুন।
+
+ধন্যবাদ
+
+এই ওয়েবসাইট ভিজিট করার জন্য আন্তরিক ধন্যবাদ। আশা করি, এখানে আপনার সময়টি ভালো কাটবে এবং আপনি নতুন কিছু জানতে বা পড়তে পারবেন।
+
+— Rahatul Islam Robiul
 
 ## Front-matter of Posts
 
 ```yaml
 ---
-title: My First Blog Post
-published: 2023-09-09
-description: This is the first post of my new Astro blog.
+title: Welcome to My Website
+published: 2026-07-20
+description: This is the first post of my website
 image: ./cover.jpg
-tags: [Foo, Bar]
+tags: [Robiul, Rahatul]
 category: Front-end
 draft: false
 ---
-```
-
-| Attribute     | Description                                                                                                                                                                                                 |
-|---------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| `title`       | The title of the post.                                                                                                                                                                                      |
-| `published`   | The date the post was published.                                                                                                                                                                            |
-| `description` | A short description of the post. Displayed on index page.                                                                                                                                                   |
-| `image`       | The cover image path of the post.<br/>1. Start with `http://` or `https://`: Use web image<br/>2. Start with `/`: For image in `public` dir<br/>3. With none of the prefixes: Relative to the markdown file |
-| `tags`        | The tags of the post.                                                                                                                                                                                       |
-| `category`    | The category of the post.                                                                                                                                                                                   |
-| `draft`        | If this post is still a draft, which won't be displayed.                                                                                                                                                    |
-
-## Where to Place the Post Files
-
-
-
-Your post files should be placed in `src/content/posts/` directory. You can also create sub-directories to better organize your posts and assets.
-
-```
-src/content/posts/
-├── post-1.md
-└── post-2/
-    ├── cover.png
-    └── index.md
-```

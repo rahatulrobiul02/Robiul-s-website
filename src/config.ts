@@ -8,8 +8,8 @@ import type {
 import { LinkPreset } from "./types/config";
 
 export const siteConfig: SiteConfig = {
-	title: "Fuwari",
-	subtitle: "Demo Site",
+	title: "Rahatul Islam Robiul",
+	subtitle: "Creative Portfolio & Personal Blog",
 	lang: "en", // Language code, e.g. 'en', 'zh_CN', 'ja', etc.
 	themeColor: {
 		hue: 250, // Default hue for the theme color, from 0 to 360. e.g. red: 0, teal: 200, cyan: 250, pink: 345
@@ -30,6 +30,10 @@ export const siteConfig: SiteConfig = {
 		depth: 2, // Maximum heading depth to show in the table, from 1 to 3
 	},
 	favicon: [
+		{
+			src: "/robiul-logo.png",
+			sizes: "32x32",
+		},
 		// Leave this array empty to use the default favicon
 		// {
 		//   src: '/favicon/icon.png',    // Path of the favicon, relative to the /public directory
@@ -40,39 +44,58 @@ export const siteConfig: SiteConfig = {
 };
 
 export const navBarConfig: NavBarConfig = {
-	links: [
-		LinkPreset.Home,
-		LinkPreset.Archive,
-		LinkPreset.About,
-		{
-			name: "GitHub",
-			url: "https://github.com/saicaca/fuwari", // Internal links should not include the base path, as it is automatically added
-			external: true, // Show an external link icon and will open in a new tab
-		},
-	],
+    links: [
+        LinkPreset.Home,
+
+        {
+            name: "Projects",
+            url: "/projects/",
+        },
+        {
+            name: "Skills",
+            url: "/skills/",
+        },
+        {
+            name: "Blog",
+            url: "/blog/",
+        },
+        {
+            name: "Contact",
+            url: "/contact/",
+        },
+
+        LinkPreset.About,
+
+        
+    ],
 };
 
 export const profileConfig: ProfileConfig = {
-	avatar: "assets/images/demo-avatar.png", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
-	name: "Lorem Ipsum",
-	bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+	avatar: "assets/images/profile.jpg", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
+	name: "Rahatul Islam Robiul",
+	bio: "I am a passionate editor, gamer and student, finding new ways to express creativity.",
 	links: [
 		{
-			name: "Twitter",
-			icon: "fa6-brands:twitter", // Visit https://icones.js.org/ for icon codes
+			name: "Facebook",
+			icon: "fa6-brands:facebook", // Visit https://icones.js.org/ for icon codes
 			// You will need to install the corresponding icon set if it's not already included
 			// `pnpm add @iconify-json/<icon-set-name>`
-			url: "https://twitter.com",
+			url: "https://www.facebook.com/rahatulrobiul/",
 		},
 		{
-			name: "Steam",
-			icon: "fa6-brands:steam",
-			url: "https://store.steampowered.com",
+			name: "Instagram",
+			icon: "fa6-brands:instagram",
+			url: "https://www.instagram.com/rahatulislamrobiul02/",
 		},
 		{
 			name: "GitHub",
 			icon: "fa6-brands:github",
-			url: "https://github.com/saicaca/fuwari",
+			url: "https://github.com/rahatulrobiul02",
+		},
+		{
+			name: "Email",
+	url: "mailto:rahatulrobiul8@gmail.com",
+	icon: "fa6-solid:envelope",
 		},
 	],
 };
